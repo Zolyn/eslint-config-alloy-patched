@@ -5,7 +5,7 @@
   "main": "index.js",
   "files": [
     "index.js",
-    "base",
+    "base.js",
     "typescript.js",
     "vue.js"
   ],
