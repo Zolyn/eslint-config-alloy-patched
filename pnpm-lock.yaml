@@ -8,11 +8,13 @@ specifiers:
   eslint-plugin-vue: ^8.5.0
   typescript: ^4.6.2
 
+dependencies:
+  eslint-config-alloy: 4.5.1
+
 devDependencies:
   '@typescript-eslint/eslint-plugin': 5.14.0_ace6f9e7722b813e21eaf2dc993bc413
   '@typescript-eslint/parser': 5.14.0_eslint@8.11.0+typescript@4.6.2
   eslint: 8.11.0
-  eslint-config-alloy: 4.5.1
   eslint-plugin-vue: 8.5.0_eslint@8.11.0
   typescript: 4.6.2
 
@@ -337,7 +339,7 @@ packages:
 
   /eslint-config-alloy/4.5.1:
     resolution: {integrity: sha512-rdHaoAyOf4scccQX3bxqmUa85+cvyhPvijqobsZT+Cdt0HGAbhGby3lghmotGOYHACRTtn7gs+oM5pnnmPkXyw==}
-    dev: true
+    dev: false
 
   /eslint-plugin-vue/8.5.0_eslint@8.11.0:
     resolution: {integrity: sha512-i1uHCTAKOoEj12RDvdtONWrGzjFm/djkzqfhmQ0d6M/W8KM81mhswd/z+iTZ0jCpdUedW3YRgcVfQ37/J4zoYQ==}
