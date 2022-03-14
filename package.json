@@ -1,9 +1,13 @@
 {
   "name": "eslint-config-alloy-patched",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "patched eslint-config-alloy",
   "main": "index.js",
-  "files": ["index.js", "typescript.js", "vue.js"],
+  "files": [
+    "index.js",
+    "typescript.js",
+    "vue.js"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,17 +22,19 @@
   },
   "homepage": "https://github.com/Zolyn/eslint-config-alloy-patched#readme",
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.14.0",
+    "@typescript-eslint/parser": "^5.14.0",
     "eslint": "^8.11.0",
+    "eslint-config-alloy": "^4.5.1",
+    "eslint-plugin-vue": "^8.5.0",
     "typescript": "^4.6.2"
   },
   "peerDependencies": {
-    "eslint": "^8.11.0",
-    "typescript": "^4.6.2"
-  },
-  "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.14.0",
     "@typescript-eslint/parser": "^5.14.0",
+    "eslint": "^8.11.0",
     "eslint-config-alloy": "^4.5.1",
-    "eslint-plugin-vue": "^8.5.0"
+    "eslint-plugin-vue": "^8.5.0",
+    "typescript": "^4.6.2"
   }
 }
