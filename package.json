@@ -1,0 +1,33 @@
+{
+  "name": "eslint-config-alloy-patched",
+  "version": "1.0.0",
+  "description": "patched eslint-config-alloy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zolyn/eslint-config-alloy-patched.git"
+  },
+  "author": "Yumeoto Zorin <zorin1477@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zolyn/eslint-config-alloy-patched/issues"
+  },
+  "homepage": "https://github.com/Zolyn/eslint-config-alloy-patched#readme",
+  "devDependencies": {
+    "eslint": "^8.11.0",
+    "typescript": "^4.6.2"
+  },
+  "peerDependencies": {
+    "eslint": "^8.11.0",
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.14.0",
+    "@typescript-eslint/parser": "^5.14.0",
+    "eslint-config-alloy": "^4.5.1",
+    "eslint-plugin-vue": "^8.5.0"
+  }
+}
