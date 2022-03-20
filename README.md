@@ -1,5 +1,7 @@
 # eslint-config-alloy-patched
-Patch eslint-config-alloy to make it compatible with Vue + TS projects
+Patch eslint-config-alloy to make it compatible with Vue + TS projects.
+
+**NOTE:** This package is only for developers who develop projects using Vue + TS and want to use the rules `eslint-config-alloy` provided to lint their code.
 
 ## Installation
 ```bash
