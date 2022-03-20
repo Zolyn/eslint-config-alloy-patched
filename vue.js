@@ -1,9 +1,10 @@
 const VueConfig = require('eslint-config-alloy/vue');
 
-// Extract property 'plugins' and 'rules'
-const { plugins, rules } = VueConfig;
+// Extract property 'parser', 'plugins' and 'rules'
+const { parser, plugins, rules } = VueConfig;
 
 module.exports = {
+    parser,
     plugins,
     rules,
 };
